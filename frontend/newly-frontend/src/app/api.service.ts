@@ -7,16 +7,14 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
 
-  baseurl = ""
+  baseurl = "http://127.0.0.1:8000"
   HttpHeaders = new HttpHeaders({'Content-type': 'application/json'})
 
 
   constructor(private http: HttpClient) { }
 
   getAllArticles(): Observable <any> {
-    return this.http.get(this.baseurl + '/articles/',
+    return this.http.get(this.baseurl + '/deliver-articles/',
     {headers: this.HttpHeaders});
   }
-
-
 }

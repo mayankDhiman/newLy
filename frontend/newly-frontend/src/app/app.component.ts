@@ -9,7 +9,7 @@ import { ApiService } from './api.service';
 })
 export class AppComponent {
   title = 'newly-frontend';
-  articles = [{title: 'The Hindu', link: "/here", description: "No Description"}, {title: 'The Tribune', link: "/here", description: "No Data"}];
+  articles = [{title: 'Good News', author: 'Hindustan Times', link: "/here", summary: "No Description"}];
   
   constructor(private api: ApiService) {
     this.getArticles();
@@ -24,6 +24,18 @@ export class AppComponent {
         console.log(error)
       }
     )
+  }
+
+  filter = { ht: true, nyt: true, bbc: true, redt: true};
+  filteredArticles = this.articles;
+
+  filterChange() {
+    this.filteredArticles = this.articles.filter(x => 
+       (x.author === 'New York Times' && this.filter.nyt)
+       || (x.author === 'Hindustan Times' && this.filter.ht)
+       || (x.author === 'BBC' && this.filter.bbc)
+       || (x.author === 'Reddit' && this.filter.redt)
+    );
   }
 
 }
