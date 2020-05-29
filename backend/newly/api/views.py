@@ -5,9 +5,14 @@ from django.shortcuts import render
 from rest_framework import viewsets
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from django.views.generic import TemplateView
 
 import feedparser
 import random
+
+class HomePageView(TemplateView):
+    def get(self, request, **kwargs):
+        return render(request, 'index.html', context=None)
 
 class DeliverArticles(APIView):
 	def get(self, request):

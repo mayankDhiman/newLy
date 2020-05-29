@@ -18,11 +18,12 @@ from django.contrib import admin
 from rest_framework import routers
 from api import views
 
-urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-]
+# urlpatterns = [
+#     url(r'^admin/', admin.site.urls),
+# ]
 
 urlpatterns = [
     url('admin/', admin.site.urls),
+    url(r'^$', views.HomePageView.as_view()),
     url(r'^deliver-articles/$', views.DeliverArticles.as_view()),
 ]

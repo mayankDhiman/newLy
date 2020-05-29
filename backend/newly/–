@@ -1,0 +1,27 @@
+[2020-05-29 14:33:38 +0000] [6548] [INFO] Starting gunicorn 19.6.0
+[2020-05-29 14:33:38 +0000] [6548] [INFO] Listening at: http://0.0.0.0:5000 (6548)
+[2020-05-29 14:33:38 +0000] [6548] [INFO] Using worker: sync
+[2020-05-29 14:33:38 +0000] [6552] [INFO] Booting worker with pid: 6552
+[2020-05-29 15:14:18 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:14:56 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:16:04 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:16:45 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:20:23 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:26:28 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:29:12 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:29:13 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:31:10 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:31:55 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:32:09 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:32:35 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:32:49 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:33:50 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:34:07 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:34:35 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:34:44 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:34:58 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:36:49 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:39:38 +0000] [6548] [INFO] Handling signal: winch
+[2020-05-29 15:39:42 +0000] [6548] [INFO] Handling signal: int
+[2020-05-29 10:09:42 +0000] [6552] [INFO] Worker exiting (pid: 6552)
+[2020-05-29 15:39:42 +0000] [6548] [INFO] Shutting down: Master
