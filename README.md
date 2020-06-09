@@ -1,15 +1,15 @@
-## Objective
-	- To test your ability to develop a project from the scratch, breaking down the requirements into tasks and meeting the requirements of each task.
-	- To estimate the time and hence effort it takes for you to learn and integrate with new technologies
-	- To test the quality of code being put out by you at each step
+# newLy
 
-## Problem statement
-Design and build a platform where users can curate their own news. The news will be served through various RSS/ATOM links which are refreshed everytime a user comes to the platform. Users will have the power to add new RSS links or remove links from the platform. 
+### About
+newLy is a news aggregator system, which gets news articles from RSS feeds and displays news to the user.
 
-## Tech Stack
+### Technologies
+- RSS Feeds
+- Machine Learning
+- Angular 9
+- Django Rest Framework
 
-Backend : NodeJS/Python
-Frontend: Angular 9 + Bootstrap
-Database: SQL
-ORM: any
-Deployment: Zeit/Heroku
+### Todo
+- [ ] Improve UI: Use Angular 9 Material UI
+- [ ] Add mood based news: User should be able to filter the news based on his mood. Filtering based on positive news, motivating news, negative news etc. should be provided.
+- [ ] Update Heroku deployment
